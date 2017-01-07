@@ -1,0 +1,26 @@
+.logo {
+  border: 1px solid #222;
+  border-top: none;
+  display: inline-block;
+}
+  .logo .logotype {
+    margin-bottom: 0;
+    padding: 7px 15px 10px;
+    line-height: 1;
+    font-weight: 300;
+    background: white;
+    font-size: 2.4rem;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+  }
+
+    .logo .logotype a {
+      color: #222;
+      text-decoration: none;
+    }
+
+
+.content-box {
+  border: 1px solid #222;
+  padding: 15px 15px 10px;
+  background: white;
+}
