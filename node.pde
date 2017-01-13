@@ -14,10 +14,10 @@ Node[] nodes = new Node[numberOfNodes];
 
 void setup() {
   frameRate(30);
-  size(800,600);
+  size(1024,786);
   for (int i = 0; i < nodes.length; i ++) {
-    float xloc = randomGaussianForScreen();
-    float yloc = randomGaussianForScreen();
+    float xloc = random(width);
+    float yloc = random(height);
     
     nodes[i] = new Node(xloc, yloc, random(1.0), random(-1,1), random(-1,1));
   }
