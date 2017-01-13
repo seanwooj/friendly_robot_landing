@@ -5,8 +5,8 @@ int numberOfNodes = 300;
 int bgColor = 255;
 int ellipseColor = 0;
 
-int mean = screenSize / 2;
-int sd = screenSize / 10;
+int mean = 800 / 2;
+int sd = 800 / 10;
 
 boolean freakOutToggle = false;
 boolean recording = false;
