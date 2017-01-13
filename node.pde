@@ -1,7 +1,6 @@
 import processing.pdf.*;
 
 int distance = 20;
-int screenSize = 576;
 int numberOfNodes = 300;
 int bgColor = 255;
 int ellipseColor = 0;
@@ -15,16 +14,13 @@ Node[] nodes = new Node[numberOfNodes];
 
 void setup() {
   frameRate(30);
+  size(800,600);
   for (int i = 0; i < nodes.length; i ++) {
     float xloc = randomGaussianForScreen();
     float yloc = randomGaussianForScreen();
     
     nodes[i] = new Node(xloc, yloc, random(1.0), random(-1,1), random(-1,1));
   }
-}
-
-void settings() {
-   size(screenSize, screenSize); 
 }
 
 void draw() {
