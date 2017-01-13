@@ -1,6 +1,6 @@
 import processing.pdf.*;
 
-int distance = 100;
+int distance = 50;
 int numberOfNodes = 300;
 int bgColor = 255;
 int ellipseColor = 0;
